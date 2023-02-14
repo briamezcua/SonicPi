@@ -1,0 +1,24 @@
+use_bpm 168
+
+live_loop :base do
+  sample :ambi_dark_woosh, amp: 1
+  sample :ambi_glass_hum, amp: 1.2
+  sample :loop_drone_g_97, amp: 0.5
+  sample :ambi_piano, amp: 1.5
+  play :c4
+  sleep 0.5
+  play :e4
+  sleep 0.5
+  play :g4
+  sleep 0.5
+  play :b4
+  sleep 0.5
+  play :c5
+  sleep 0.5
+  play :b4
+  sleep 0.5
+  play :g4
+  sleep 0.5
+  play :e4
+  sleep 0.5
+end
